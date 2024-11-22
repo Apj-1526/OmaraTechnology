@@ -1,0 +1,44 @@
+th,tbody,td{
+	border: 2px solid black;
+}
+table{
+	margin-top: 50px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+  }
+  
+  th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  th {
+	background-color: #f4f4f4;
+	position: sticky;
+	top: 0;
+  }
+  
+  tbody tr {
+	transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+ html {
+	scroll-behavior: smooth;
+  }
+  
+  .loading {
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+  }
+  
+  div {
+	max-height: 100vh;
+	overflow-y: auto; /* Ensure the div scrolls smoothly */
+  }
+  
